@@ -6,28 +6,30 @@
     <title>Locadora de Veículos</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
+
 <body>
-<main>
+<main class="tudo">
     <div id="col1">
         <img src="/imagens/icone.png" alt="icone de caminhão">
         <h2 class="titulo">Encontre o veículo certo para você!</h2>
         <p>Preencha as informações abaixo</p>
-        <form>
-            <label>Nome</label><br>
-            <input type="text"><br>
-            <label>E-mail</label><br>
-            <input type="email"><br>
-            <label>Selecione o tipo de veículo</label><br>
-            <select>
+        <form class="pedido">
+            <label class="rotulo">Nome</label><br>
+            <input type="text" class="campo-texto"><br>
+            <label class="rotulo">E-mail</label><br>
+            <input type="email" class="campo-texto"><br>
+            <label class="rotulo">Selecione o tipo de veículo</label><br>
+            <select class="campo-texto">
                 <option>Básico</option>
                 <option>Fámilia</option>
                 <option>Luxo</option>
             </select><br>
+            <button class="botao-reservar">FAZER MINHA RESERVA</button>
         </form>
     </div>
     <div id="col2">
-        <h1>VOCÊ PODE ALUGAR ESSE VEÍCULO POR R$ <em>99</em> / DIA</h1>
-        <P>Válido para todo território nacional</P>
+        <h1 class="oferta">VOCÊ PODE ALUGAR ESSE VEÍCULO POR R$ <strong class="destaque">99</strong> / DIA</h1>
+        <P class="texto-oferta">Válido para todo território nacional</P>
         <img src="/imagens/renault-kwid.png" alt="Renault Kwid">
     </div>
 </main>
