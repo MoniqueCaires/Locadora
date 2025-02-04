@@ -55,8 +55,8 @@ selector{
 */
 
 body{/*Seletor de tag*/
-    background-color: #FFC107;
-    font-family: Arial;
+    background-color: #A7B49E;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #col1{/*Seletor de ID*/
@@ -105,9 +105,9 @@ body{/*Seletor de tag*/
     box-sizing: border-box;
 }
 
-.botao-reserva{
+.botao-reservar{
     width: 100%;
-    background-color: #FFC107;
+    background-color: #818C78;
     color: white;
     line-height: 150%;
     padding-top: 6px;
@@ -132,7 +132,7 @@ body{/*Seletor de tag*/
 }
 
 .destaque{
-    color:#445EE5;
+    color: #27445D;
 }
 
 .texto-oferta{
@@ -145,4 +145,12 @@ body{/*Seletor de tag*/
     align-items: center;
     justify-content: center;
     height: 100vh;
+}
+
+.icone{
+    width: 60px;
+}
+
+.img-principal{
+    width: 800px;
 }
